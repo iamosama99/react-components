@@ -1,0 +1,9 @@
+.post {
+    display: block;
+    width: 400px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #e5e5e5;
+}
+

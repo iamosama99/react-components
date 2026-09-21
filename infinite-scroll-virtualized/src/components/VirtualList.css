@@ -1,0 +1,19 @@
+.virtual-list {
+    height: 100vh;
+    overflow-y: auto;
+    border: 2px solid red;
+}
+
+.virtual-list-spacer {
+    position: relative;
+}
+
+.virtual-list-row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

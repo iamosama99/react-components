@@ -1,0 +1,22 @@
+#root {
+    justify-content: center;
+}
+
+.container {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star {
+    font-size: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+    user-select: none;
+    background: linear-gradient(90deg, gold var(--fill), #d1d1d1 var(--fill));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}

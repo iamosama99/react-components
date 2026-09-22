@@ -1,0 +1,23 @@
+html, body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star {
+    font-size: 3rem;
+    color: gold;
+    cursor: pointer;
+    user-select: none;
+}

@@ -1,0 +1,13 @@
+.file-item {
+    display: block;
+}
+
+.container {
+    padding-left: 1rem;
+}
+
+button.file-item {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

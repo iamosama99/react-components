@@ -1,0 +1,51 @@
+[
+  {
+    "id": "c1",
+    "text": "Has anyone tried the new React compiler in production?",
+    "children": [
+      {
+        "id": "c2",
+        "text": "Yes, we rolled it out last month. Fewer manual useMemo calls, no regressions so far.",
+        "children": [
+          {
+            "id": "c3",
+            "text": "Did your bundle size change at all?",
+            "children": [
+              {
+                "id": "c4",
+                "text": "Slightly larger, about 2%. Worth it for us.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "c5",
+            "text": "How did you handle third-party libraries that mutate props?",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "Still waiting for our codebase to be lint-clean before trying it.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "c7",
+    "text": "Unpopular opinion: nested comments are harder to build than they look.",
+    "children": [
+      {
+        "id": "c8",
+        "text": "The immutable update is what gets people.",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "c9",
+    "text": "A root comment with no replies, for the empty-children case.",
+    "children": []
+  }
+]
